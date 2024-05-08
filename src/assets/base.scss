@@ -1,0 +1,189 @@
+:root{
+  --font: "Comfortaa", sans-serif;
+  --dark: rgb(31, 34, 40);
+  --grey: rgb(41, 47, 55);
+  --light: rgb(215, 208, 183);
+  --white: rgb(224, 224, 226);
+  --orange: rgb(232, 105, 46);
+  --red: rgb(186, 33, 50);
+  --blue: rgb(22, 109, 164);
+  --pur: rgb(121, 92, 146);
+  --green: rgb(139, 143, 84);
+}
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: var(--font);
+}
+
+.Геральт{
+  background-color: rgb(86, 86, 86);
+  div{
+    .name{
+        color: var(--white);
+    }
+    .stat{
+        background-color: var(--dark);
+        color: var(--white);
+    }
+  }
+  .state{
+    background-color: var(--dark);
+    color: var(--white);
+  }
+}
+.Леонардо{
+  background-color: var(--blue);
+  div{
+    .name{
+        color: var(--white);
+    }
+    .stat{
+        background-color: var(--white);
+        color: var(--blue);
+    }
+  }
+  .state{
+    background-color: var(--white);
+    color: var(--dark);
+  }
+}
+.Скорпион{
+  background-color: var(--orange);
+  div{
+    .name{
+        color: var(--white);
+    }
+    .stat{
+        background-color: var(--white);
+        color: var(--orange);
+    }
+  }
+  .state{
+    background-color: var(--white);
+    color: var(--dark);
+  }
+}
+.Халк{
+  background-color: var(--green);
+  div{
+    .name{
+        color: var(--white);
+    }
+    .stat{
+        background-color: var(--white);
+        color: var(--green);
+    }
+  }
+  .state{
+    background-color: var(--white);
+    color: var(--dark);
+  }
+}
+.Флеш{
+  background-color: var(--red);
+  div{
+    .name{
+        color: var(--white);
+    }
+    .stat{
+        background-color: var(--white);
+        color: var(--red);
+    }
+  }
+  .state{
+    background-color: var(--white);
+    color: var(--dark);
+  }
+}
+.green{
+  background-color: var(--green);
+}
+.blue{
+  background-color: var(--blue);
+}
+.grey{
+  background-color: var(--grey);
+}
+.pur{
+  background-color: var(--pur);
+}
+.red{
+  background-color: var(--red);
+}
+.orange{
+  background-color: var(--orange);
+}
+.sick{
+  background-color: #790E34;
+}
+.abillity{
+  background-color: #BF3660;
+}
+.range{
+  background-color: #F46369;
+}
+.attack{
+  background-color: #F3894E;
+}
+.Утопец, .Ниндзя, .Штурмовик, .Крип-Мечник{
+  background-color: rgb(86, 86, 86);
+  .stats{
+    .stat{
+      color: rgb(86, 86, 86);
+    }
+  }
+}
+.Анти-Флеш{
+  background-color: var(--orange);
+  .stats{
+    .stat{
+      color: var(--orange);
+    }
+  }
+}
+.Саб-Зиро{
+  background-color: var(--blue);
+  .stats{
+    .stat{
+      color: var(--blue);
+    }
+  }
+}
+.Танос{
+  background-color: var(--pur);
+  .stats{
+    .stat{
+      color: var(--pur);
+    }
+  }
+}
+.Шредер{
+  background-color: var(--grey);
+  .stats{
+    .stat{
+      color: var(--grey);
+    }
+  }
+}
+.Имлерих{
+  background-color: var(--red);
+  .stats{
+    .stat{
+      color: var(--red);
+    }
+  }
+}
+.Низкая{
+  background-color: var(--green);
+}
+.Средняя{
+  background-color: var(--orange);
+}
+.Высокая{
+  background-color: var(--red);
+}
+.Запредельная{
+  background-color: #790E34;
+}
